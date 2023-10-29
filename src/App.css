@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Set the background color of the entire page to black */
+body {
+    background-color: #242424;
+    color: white; /* Set font color to white */
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Add some padding to improve readability */
+  }
+  .App {
+    justify-content: center;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse border model to remove spacing */
+    border: 1px solid white; /* Add white outer border to the table */
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #242424;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: none; /* Remove border from table headers */
+  }
+  
+  td {
+    padding: 10px;
+    border-top: none; /* Remove top border from table cells */
+    border-bottom: none; /* Remove bottom border from table cells */
+  }
+  
+  /* Style the first row (header row) */
+  tr:first-child {
+    border-top: 1px solid white; /* Add white top border to the header row */
+  }
+  
+   h1 {
+    text-align: center;
+  }
